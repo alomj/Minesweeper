@@ -1,11 +1,11 @@
 from piece import Piece
 from random import random
+
 class Board():
     def __init__(self, size, probability):
         self.size = size
         self.probability = probability
         self.set_board()
-
 
     def set_board(self):
         self.board = []
@@ -19,3 +19,6 @@ class Board():
 
     def get_size(self):
         return self.size
+
+    def get_piece(self, row, col):
+        return self.board[row][col]
