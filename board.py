@@ -12,3 +12,6 @@ class Board():
                 piece = None
                 row.append(piece)
             self.board.append(row)
+
+    def get_size(self):
+        return self.size
