@@ -12,3 +12,16 @@ class Piece():
 
     def get_flagged(self):
         return self.flagged
+
+    def set_neighbors(self, neighbors):
+        self.neighbors = neighbors
+        self.set_num_around()
+
+    def set_num_around(self):
+        self.num_around = 0
+        for piece in self.neighbors:
+            if piece.get_has_bomb():
+                self.num_around += 1
+
+    def get_num_around(self):
+        return self.num_around
