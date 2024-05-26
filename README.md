@@ -12,6 +12,7 @@ This is a Python implementation of the classic Minesweeper game using the Pygame
 
 ![image](https://github.com/alomj/Minesweeper/assets/144105248/131690bd-7d92-459e-898b-0ea513053cc6)
 
+![image](https://github.com/alomj/Minesweeper/assets/144105248/8555e94a-c248-424a-8043-ebc5122332fe)
 
 ## Installation
 
