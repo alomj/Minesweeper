@@ -1,8 +1,10 @@
-class Piece():
+class Piece:
     def __init__(self, has_bomb):
         self.has_bomb = has_bomb
         self.clicked = False
         self.flagged = False
+        self.neighbors = []
+        self.num_around = 0
 
     def get_has_bomb(self):
         return self.has_bomb
