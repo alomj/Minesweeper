@@ -31,3 +31,6 @@ class Piece():
 
     def click(self):
         self.clicked = True
+
+    def get_neighbors(self):
+        return self.neighbors

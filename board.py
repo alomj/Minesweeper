@@ -55,10 +55,18 @@ class Board():
         if (flag):
             piece.toggle_flag()
             return
+        piece.click()
         if  (piece.get_has_bomb()):
             self.lost = True
             return
         self.num_clicked += 1
+        if (piece.get_num_around() != 0):
+            return
+        for neighbor in piece.get_neighbors():
+            if (not self.neighbors.get_has_bomb() and not neighbor.get_clicked()):
+                self.handle_click(neighbor, False)
+
+
     def get_lost(self):
         return self.lost
     def get_won(self):

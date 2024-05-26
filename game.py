@@ -47,7 +47,7 @@ class Game():
     def get_image(self, piece):
         string = None
         if piece.get_clicked():
-            pass
+            string = "bomb-at-clicked-block" if piece.get_has_bomb() else str(piece.get_num_around())
         else:
             string = "flag" if piece.get_flagged() else "empty-block"
 
