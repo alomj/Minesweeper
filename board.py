@@ -63,7 +63,7 @@ class Board():
         if (piece.get_num_around() != 0):
             return
         for neighbor in piece.get_neighbors():
-            if (not self.neighbors.get_has_bomb() and not neighbor.get_clicked()):
+            if (not neighbor.get_has_bomb() and not neighbor.get_clicked()):
                 self.handle_click(neighbor, False)
 
 

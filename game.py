@@ -54,6 +54,8 @@ class Game():
         return self.images[string]
 
     def handle_click(self, position, right_click):
+        if (self.board.get_lost()):
+            return
         row, col = position[1] // self.piece_size[1], position[0] // self.piece_size[0]
         piece = self.board.get_piece(row, col)
         self.board.handle_click(piece, right_click)
