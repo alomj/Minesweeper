@@ -23,6 +23,17 @@ class Game():
 
             self.draw()
             pygame.display.flip()
+            if self.board.get_won():
+                self.display_message("You Won!", (0, 255, 0))
+                pygame.display.flip()
+                pygame.time.wait(3000)
+                running = False
+            elif self.board.get_lost():
+                self.display_message("You Lost!", (255, 0, 0))
+                pygame.display.flip()
+                pygame.time.wait(3000)
+                running = False
+
         pygame.quit()
 
     def draw(self):
@@ -54,8 +65,16 @@ class Game():
         return self.images[string]
 
     def handle_click(self, position, right_click):
-        if (self.board.get_lost()):
+        if (self.board.get_lost()) or self.board.get_won():
             return
         row, col = position[1] // self.piece_size[1], position[0] // self.piece_size[0]
         piece = self.board.get_piece(row, col)
         self.board.handle_click(piece, right_click)
+
+
+    def display_message(self, message, color):
+        pygame.font.init()
+        self.font = pygame.font.Font('freesansbold.ttf', 74)
+        text = self.font.render(message, True, color)
+        text_rect = text.get_rect(center=(self.screen_size[0] // 2, self.screen_size[1] // 2))
+        self.screen.blit(text, text_rect)
