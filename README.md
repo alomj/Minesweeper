@@ -1,13 +1,13 @@
 # Minesweeper
 This is a Python implementation of the classic Minesweeper game using the Pygame library. The game board is generated with a specified probability of bombs and allows players to click on tiles to reveal them or flag them as bombs.
 
-## Features
+## Features:
 - Classic Minesweeper mechanics: clicking to reveal, flagging suspected mines, and losing when a mine is clicked.
 - Visual feedback for game won or lost.
 - Simple and intuitive graphical user interface.
 
 
-## Installation
+## Installation:
 
 To run this project locally, follow these steps:
 1. **Clone the repository:**
@@ -20,10 +20,10 @@ git clone https://github.com/alomj/minesweeper.git
 pip install pygame
 ```
 
-## Usage
+## Usage:
 To start the game, run the main.py script. This will initialize a Minesweeper board and open a Pygame window where you can play the game.
 
-## Code Structure
+## Code Structure:
  **main.py:** The entry point of the game. It initializes the game settings and starts the game loop.
  
  **game.py:** Contains the Game class, which handles the game logic, drawing the game board, handling user input, and updating the game state.
@@ -32,7 +32,7 @@ To start the game, run the main.py script. This will initialize a Minesweeper bo
  
  **piece.py:** Contains the Piece class, which represents an individual cell on the board.
 
-## Screenshots  
+## Screenshots: 
 ![image](https://github.com/alomj/Minesweeper/assets/144105248/e8632010-2785-4f3a-9a42-61fd567881d8)
 
 ![image](https://github.com/alomj/Minesweeper/assets/144105248/131690bd-7d92-459e-898b-0ea513053cc6)
