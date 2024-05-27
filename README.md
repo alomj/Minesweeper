@@ -40,6 +40,8 @@ To start the game, run the main.py script. This will initialize a Minesweeper bo
  **piece.py:** Contains the Piece class, which represents an individual cell on the board.
 
 
-## Feel free to contribute to the project by opening issues or submitting pull requests.  **Enjoy playing Minesweeper!**
+## Feel free to contribute to the project by opening issues or submitting pull requests.  
+
+**Enjoy playing Minesweeper!**
 
 
