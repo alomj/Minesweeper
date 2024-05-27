@@ -7,13 +7,6 @@ This is a Python implementation of the classic Minesweeper game using the Pygame
 - Simple and intuitive graphical user interface.
 
 
-## Screenshots  
-![image](https://github.com/alomj/Minesweeper/assets/144105248/e8632010-2785-4f3a-9a42-61fd567881d8)
-
-![image](https://github.com/alomj/Minesweeper/assets/144105248/131690bd-7d92-459e-898b-0ea513053cc6)
-
-![image](https://github.com/alomj/Minesweeper/assets/144105248/8555e94a-c248-424a-8043-ebc5122332fe)
-
 ## Installation
 
 To run this project locally, follow these steps:
@@ -38,6 +31,13 @@ To start the game, run the main.py script. This will initialize a Minesweeper bo
  **board.py:** Contains the Board class, which represents the Minesweeper board and manages the pieces (cells) on the board.
  
  **piece.py:** Contains the Piece class, which represents an individual cell on the board.
+
+## Screenshots  
+![image](https://github.com/alomj/Minesweeper/assets/144105248/e8632010-2785-4f3a-9a42-61fd567881d8)
+
+![image](https://github.com/alomj/Minesweeper/assets/144105248/131690bd-7d92-459e-898b-0ea513053cc6)
+
+![image](https://github.com/alomj/Minesweeper/assets/144105248/8555e94a-c248-424a-8043-ebc5122332fe)
 
 
 ## Feel free to contribute to the project by opening issues or submitting pull requests.  
