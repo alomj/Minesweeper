@@ -19,7 +19,7 @@ This is a Python implementation of the classic Minesweeper game using the Pygame
 To run this project locally, follow these steps:
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/minesweeper.git
+git clone https://github.com/alomj/minesweeper.git
 ```
 2. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pygame.
 
