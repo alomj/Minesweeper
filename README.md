@@ -32,9 +32,12 @@ To start the game, run the main.py script. This will initialize a Minesweeper bo
 
 ## Code Structure
  **main.py:** The entry point of the game. It initializes the game settings and starts the game loop.
+ 
  **game.py:** Contains the Game class, which handles the game logic, drawing the game board, handling user input, and updating the game state.
+ 
  **board.py:** Contains the Board class, which represents the Minesweeper board and manages the pieces (cells) on the board.
- **piece.py: ** Contains the Piece class, which represents an individual cell on the board.
+ 
+ **piece.py:** Contains the Piece class, which represents an individual cell on the board.
 
 
  Feel free to contribute to the project by opening issues or submitting pull requests.  **Enjoy playing Minesweeper!**
