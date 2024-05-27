@@ -52,7 +52,7 @@ class Game:
     def load_images(self):
         self.images = {}
         for filename in os.listdir("images"):
-            if not filename.endswith(".png"):
+            if filename.endswith(".png") == False:
                 continue
             image = pygame.image.load(os.path.join("images", filename))
             image = pygame.transform.scale(image, self.piece_size)
