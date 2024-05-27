@@ -1,5 +1,5 @@
 # Minesweeper
-This is a Python implementation of the classic Minesweeper game using the Pygame library. The game board is generated with a specified probability of bombs and allows players to click on tiles to reveal them or flag them as bombs.
+The game features a grid of clickable squares with hidden "mines" scattered across the board. The goal is to clear the board without detonating any minis by using the number of mines clues next to each square
 
 ## Features:
 - Classic Minesweeper mechanics: clicking to reveal, flagging suspected mines, and losing when a mine is clicked.
